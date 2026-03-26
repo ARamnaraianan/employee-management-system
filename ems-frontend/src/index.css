@@ -1,0 +1,79 @@
+body {
+  background: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.btn {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: #eef3ff;
+  transform: scale(1.01);
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add Employee Page */
+.add-page {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-container {
+  display: flex;
+  width: 700px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.left-side {
+  width: 40%;
+  background: linear-gradient(135deg, #4c84ff, #6a5cff);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-bg {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+}
+
+.right-side {
+  width: 60%;
+  padding: 30px;
+}
