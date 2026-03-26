@@ -39,10 +39,6 @@ This application allows users to perform CRUD operations on employee data with a
 - Update Employee
 - Delete Employee
 - View All Employees
-- Search Employees
-- Dashboard with Employee Count Chart
-- Toast Notifications
-- Modern UI with Animations and Hover Effects
 - REST API Integration
 - Full CRUD Operations
 
