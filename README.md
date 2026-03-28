@@ -41,7 +41,3 @@ This application allows users to perform CRUD operations on employee data with a
 - View All Employees
 - REST API Integration
 - Full CRUD Operations
-
----
-
-## 📊 Project Architecture
